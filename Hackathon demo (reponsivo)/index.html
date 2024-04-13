@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hackathon</title>
+  <link rel="icon" type="image/png" href="imagenes/tecnmicono.ico" />
+  <meta name="description" content="Escuela de nivel superior - Instituto Tecnológico de Mérida " />
+  <meta name="keywords"
+    content="TecNM, Instituto Tecnológico Nacional de México, Tec, Tecnológico Nacional de México, Tec Merida" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+    <script src="responsiveslides.min.js"></script>
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="movil.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+  <script src="funciones.js"></script>
+  
+</head>
+<Style>
+           
+  .swiper {
+      max-width: 1200px;
+     
+      
+      
+  }
+  .swiper-img{
+      display: block;
+      width: 100%;
+      aspect-ratio: 1;
+      border-radius: 30%;
+      object-fit: cover;
+  }
+</Style>
+
+<body>
+  <i class="ir-arriba fas fa-arrow-circle-up fa-2x"></i>
+
+  <header>
+    <div class="contenedor_header ancho">
+      <a href="https://www.gob.mx/" target="_blank"><img class="logogob_header" src="imagenes/logoheader.svg"
+          alt="" /></a>
+      <div class="link_header">
+        <a href="https://www.gob.mx/gobierno" target="_blank">Gobierno</a>
+        <a href="https://www.participa.gob.mx/" target="_blank">Participa</a>
+        <a href="https://datos.gob.mx/" target="_blank">Datos</a>
+      </div>
+    </div>
+  </header>
+
+  
+  <div class="contenedor_logos ancho">
+    <div id="logossep">
+      <figure class="iconoscabecera">
+        <a href="#"><img src="imagenes/logo-gob.png" alt="" /></a>
+      </figure>
+      <figure class="iconoscabecera">
+        <a href="#"><img src="imagenes/logo-educacion.png" alt="" /></a>
+      </figure>
+      <figure class="tnm">
+        <a href="#"><img src="imagenes/logo-tecnm.png" alt="" /></a>
+      </figure>
+      <figure id="tec">
+        <a href="https://www.merida.tecnm.mx/" target="_blank"><img src="imagenes/logo_tec.jpg" alt="" /></a>
+      </figure>
+    </div>
+    <div id="correo">
+      <a href="#" target="_blank"><img src="imagenes/icono-correo.png" alt="" /></a>
+      <a href="#"><img src="imagenes/icono-calendario.png" alt="" /></a>
+    </div>
+  </div>
+
+  <input id="esconder" type="checkbox" />
+  <label for="esconder"><i id="iconomenu" class="fas fa-bars fa-lg"></i></label>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html"><i class="fas fa-home"></i></a>
+      </li>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Hackton</a></li>
+      <li><a href="#">Empresas Participantes</a></li>
+      <li><a href="#">Bases de evento</a></li>
+      <li><a href="#">Premios del Evento</a></li>
+      <li><a href="#">Registro</a></li>
+    </ul>
+    <a href=""><img class="correo2" src="imagenes/icono-correo.png" alt="" /></a>
+    <a href=""><img class="correo2" src="imagenes/icono-calendario.png" alt="" /></a>
+  </nav>
+  
+  <!-- <section>
+    <div class="container">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Hackathon</h1>
+            <p>¡Participa en nuestra hackathon y muestra tus habilidades!</p>
+        </div>
+        <img src="imgs/logo_blanco.png" alt="Logo" class="logo">
+    </div>
+</section> -->
+
+<section>
+
+  <section class="slides slide">
+    <div class="slides__body">
+      <h1>Hackathon</h1>
+      <p>¡Participa en nuestra hackathon y muestra tus habilidades!</p>
+      <img src="imgs/logo_blanco.png" alt="Logo" class="logo">
+    </div>
+    </div>
+    <ul class="rslides">
+        <li>
+          <img src="imgs/3220-ISDI hackathon-que-es-por-que-tu-empresa-deberia-participar.jpg" alt="">
+        </li>
+        <li>
+          <img src="imgs/01-tecnoloogico-scaled.jpg" alt="">
+        </li>
+        <li>
+          <img src="imgs/th2020-galeria-home-001.jpg" alt="">
+        </li>
+    </ul>
+  </section>
+
+<div class="container2">
+    <img src="imgs/th2020-galeria-home-001.jpg" alt="Fondo" class="background-image">
+    <div class="logo2">
+        <img src="imgs/logo_blanco.png" alt="Logo">
+    </div>
+    <div class="content2">
+        <div class="text-container2">
+            <div class="text2">
+                <h1>¿Que es Hackathon?</h1>
+                <p>Una competencia contra reloj en la que los participantes podrán buscar soluciones 
+                    en grupo a problemáticas sociales, tecnológicas y/o sustentables con la asesoría y acompañamiento
+                     de mentores expertos tanto del sector privado y público. </p>
+            </div>
+        </div>
+        <div class="video-icon2" onclick="openModal()">
+            <img src="imgs/icono video.gif" alt="Icono YouTube">
+        </div>
+    </div>
+    <div id="myModal" class="modal2">
+        <div class="modal-content2">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe class="videos2" width="560" height="315" src="https://www.youtube.com/embed/YJdfm4hmNLc?si=7YJPETL31MyKYG3S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<script src="videooo.js"></script>
+</section >
+
+
+
+
+
+<section>
+    <div class="container3">
+        <div class="box">
+            <img src="imgs/Pepsi_2023.svg.png" alt="Imagen 1" class="circle-image">
+            <h2>Digital boarding pass: “Boarding
+                pass 2.0, tu viaje comienza
+               digitalmente”</h2>
+            <p>Proporcionar una representación electrónica y de fácil acceso de un boleto digital de un servicio de transporte
+                 terrestre y al mismo tiempo mantener al cliente informado de los posibles cambios que puede tener su servicio de transporte.</p>
+                 <a href="#" class="btn_guinda">Ver mas</a>
+            <img src="imgs/logo_colores.png" alt="Logo" class="logo3">
+        </div>
+        <div class="box">
+            <img src="imgs/coppel-1.jpg" alt="Imagen 2" class="circle-image">
+            <h2>Cómo crear un sistema de 
+          información de valor para
+             las microempresas.</h2>
+            <p>Desarrollar una herramienta para los microempresarios que les permita contar con información relevante para tomar mejores decisiones, crecer su negocio y tener acceso a productos y servicios adicionales a los que ya tienen</p>
+            <a href="#" class="btn_guinda">Ver mas</a>
+            <img src="imgs/logo_colores.png" alt="Logo" class="logo3">
+        </div>
+        <div class="box">
+            <img src="imgs/451ddf96e958c635948cd88c29892565.png" alt="Imagen 3" class="circle-image">
+            <h2>Detección de anomalías por 
+                análisis de trafico en la 
+                navegación</h2>
+            <p>Desarrollar un software que integre inteligencia artificial, que sea capaz de analizar el tráfico de navegación y detectar si existe alguna anomalía, que sea indicador de una posible amenaza de ciberseguridad.</p>
+            <a href="#" class="btn_guinda">Ver mas</a>
+            <img src="imgs/logo_colores.png" alt="Logo" class="logo3">
+        </div>
+    </div> 
+</section>
+
+<section class="circulos">
+
+<div class="container5">
+  
+    <img class="circulo-imagnen" src="imgs/logo_blanco.png" alt="logito">
+    <div class="circulos-contenedor">
+        <div class="circulo">
+            <h3>Premio: $100,000 MXN</h3>
+            <a href="#" class="btn_azul">Mas Información</a>
+           
+          
+        </div>
+        <div class="circulo">
+            <h3>Premio: $100,000 MXN</h3>
+            <a href="#" class="btn_azul">Mas Información</a>
+            
+          
+        </div>
+        <div class="circulo">
+            <h3>Premio: $100,000 MXN</h3>
+            <a href="#" class="btn_azul">Mas Información</a>
+            
+          
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+<section class="carrucel-logos">
+
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img class="swiper-img" src="imgs/451ddf96e958c635948cd88c29892565.png" alt="img1">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-img" src="imgs/coppel-1.jpg" alt="img2">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-img" src="imgs/Pepsi_2023.svg.png" alt="img3">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-img" src="imgs/coppel-1.jpg" alt="img3">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-img" src="imgs/Pepsi_2023.svg.png" alt="img4">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-img" src="imgs/451ddf96e958c635948cd88c29892565.png" alt="img5">
+        </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+      
+      </div>
+    
+    
+</section>
+
+
+
+
+
+
+  <br>
+  <footer>
+    <div id="direccion">
+      <h2>Dirección</h2>
+      <p>Av. Tecnológico km. 4.5 S/N C.P. 97118</p>
+      <p><a href="tel:9999645000">Tel:(999) 964-5000 Ext. 21801</a> </p>
+      <br>
+      <p>© Copyright 2024 TecNM - Todos los Derechos Reservados</p>
+      <br>
+      <p><a href="#"> Aviso de Privacidad</a></p>
+    </div>
+    <div id="contacto">
+      <h2>Contactanos</h2>
+      <p> Contacto: <a href="mailto:cisistemas@merida.tecnm.mx">cisistemas@merida.tecnm.mx</a></p>
+
+      <br>
+
+      <div class="iconosredes">
+        <a href="https://www.facebook.com/MuroCoorIscItm" target="_blank">
+          <span class='fa-stack fa-1x'>
+            <i class='fa fa-circle fa-stack-2x'></i>
+            <i class='redes fab fa-facebook-f fa-stack-1x fa-inverse'></i>
+          </span>
+        </a>
+
+
+      </div>
+    </div>
+
+    <iframe id="mapa"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5049951470533!2d-89.62216216951138!3d21.012470618822007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a65077d641%3A0x39dfe74777312656!2sInstituto%20Tecnol%C3%B3gico%20de%20M%C3%A9rida!5e0!3m2!1ses-419!2smx!4v1595463545538!5m2!1ses-419!2smx"
+      frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </footer>
+  <section id="abajo">
+    <img id="logoabajo" src="imagenes/logoheader.svg" alt="">
+
+    <article>
+      <div id="uno">
+        <h2>Enlaces</h2>
+        <aside class="enlacesabajo">
+          <a href="https://participa.gob.mx/" target="_blank">- Participa</a>
+          <a href="https://www.gob.mx/publicaciones" target="_blank">- Publicaciones Oficiales</a>
+          <a href="http://www.ordenjuridico.gob.mx/" target="_blank">- Marco Jurídico</a>
+          <a href="https://consultapublicamx.inai.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio"
+            target="_blank">- Plataforma Nacional de Transparencia</a>
+        </aside>
+      </div>
+
+      <div id="uno">
+        <h2>¿Qué es gob.mx</h2>
+        <aside class="enlacesabajo">
+          <p>Es el portal único de trámites, información y participación ciudadana. <a
+              href="https://www.gob.mx/que-es-gobmx" target="_blank" class="dorado"> Leer más</a></p>
+          <a href="https://datos.gob.mx/" target="_blank">- Portal de datos abiertos</a>
+          <a href="https://www.gob.mx/accesibilidad" target="_blank">- Declaración de accesibilidad</a>
+          <a href="https://www.gob.mx/aviso_de_privacidad" target="_blank">- Aviso de privacidad integral</a>
+        </aside>
+      </div>
+
+      <div id="uno">
+        <aside class="enlacesabajo">
+          <a href="https://www.gob.mx/privacidadsimplificado" target="_blank">- Aviso de privacidad simplificado</a>
+          <a href="Términos y Condiciones" target="_blank">- Terminos y condiciones</a>
+          <a href="https://www.gob.mx/terminos#medidas-seguridad-informacion" target="_blank">- Politica de
+            seguridad</a>
+          <a href="#" target="_blank">- Mapa del sitio</a>
+        </aside>
+      </div>
+    </article>
+  </section>
+
+  <!-- FUNCIONES JAVASCRIPT -->
+
+</body>
+<script type="module">
+  import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+  const swiper = new Swiper('.swiper', {
+// Optional parameters
+direction: 'horizontal',
+loop: true,
+spaceBetween: 30,
+breakpoints: {
+  375:{
+    slidesPerView: 1,
+    
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+
+// If we need pagination
+pagination: {
+  el: '.swiper-pagination',
+},
+
+// Navigation arrows
+navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+
+// And if we need scrollbar
+
+});
+
+
+// funcion del slider
+$(".rslides").responsiveSlides();
+
+</script>
+
+</html>

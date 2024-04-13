@@ -1,0 +1,392 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+.content {
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1; /* Coloca el contenido encima del color de fondo */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 500px;
+    height: auto;
+    opacity: 0.8;
+}
+
+
+.container2 {
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh + 400px);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo2 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 900px;
+    align-items: center;
+    gap: 4rem;
+}
+
+.text-container2 {
+    text-align: center;
+    
+    
+}
+
+.text2 {
+    padding: 20px;
+    background-color: #E2E8F0; /* Color con opacidad */
+    opacity: 88%; /* Opacidad del color */
+    border-radius: 10px;
+    border: 7px solid #CC9900; /* Borde negro de 2px */
+    color: black;
+    overflow-y: auto; /* Añadir desplazamiento vertical si el contenido es demasiado largo */
+}
+
+.video-icon2 {
+    flex: 1;
+    text-align: right;
+    cursor: pointer;
+   
+    
+}
+
+.video-icon2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 7px solid #CC9900;
+}.container2
+.videos2{
+    aspect-ratio: 16 /9;
+    width: 70%;
+    margin: auto;
+    display: block;
+
+}
+
+.modal2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content2 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.text-container2 {
+    flex: 1;
+    margin-right: 50px; /* Ajuste a la izquierda */
+}
+
+
+
+
+.video-icon2 {
+    flex: 1;
+    text-align: right;
+}
+
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('imgs/01-tecnoloogico-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border: 7px solid #CC9900;
+    border-radius: 10px;
+    background-color: #E2E8F0;
+    align-items: stretch;
+}
+
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logo3 {
+    width: 200px;
+    height: auto;
+    margin-top: auto; /* Colocar el logo al final del cuadro */
+    display: block; /* Para asegurarse de que ocupe el espacio correctamente */
+    margin-left: auto; /* Centrar el logo horizontalmente */
+    margin-right: auto; /* Centrar el logo horizontalmente */
+}
+.carrucel-logos
+{
+    background-color:#002185;
+    padding: 3rem 0;
+
+}
+.container5{
+    max-width: 1200px;
+    margin: auto;
+
+}
+.circulos-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+.circulo {
+    color: white;
+    border-radius: 50%;
+    width: 100%;
+    aspect-ratio: 1;
+    border: 16px solid white;
+    background-color: #002185;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+.circulos{
+    background-color: #008EA4;
+    padding: 3rem 0;
+
+}
+.circulo-imagnen{
+    display: block;
+    margin: auto;
+
+}
+
+
+/* Slider */
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+  
+  .rslides li {
+    position: absolute;
+    aspect-ratio: 16/ 9;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    }
+  
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+  
+  .rslides img {
+    display: block;
+    height: 100%;
+    float: left;
+    width: 100%;
+    border: 0;
+    object-fit: cover;
+    
+    }
+
+    .slide{
+        position: relative;
+    }
+.slides__body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background: rgba(226, 232, 240, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: white;
+}
+@media (min-width: 468px){
+    .circulos-contenedor, .container3,.content2{
+        flex-direction: row;
+    }
+
+    .container2{
+        
+        height: 100vh;
+    }
+}
+
+/* Media query para dispositivos móviles (hasta 600px) */
+@media screen and (max-width: 600px) {
+    .content {
+        font-size: 1em;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+    .container2 .videos2 {
+        width: 90%;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .circle-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo3 {
+        width: 150px;
+    }
+}
+
+/* Media query para tablets (de 601px a 900px) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .content {
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .logo {
+        width: 400px;
+    }
+
+    .container2 .videos2 {
+        width: 70%;
+    }
+
+    .box {
+        width: 70%;
+    }
+
+    .circle-image {
+        width: 130px;
+        height: 130px;
+    }
+
+    .logo3 {
+        width: 180px;
+    }
+}
